@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- Add icon library -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+
+body {
+  background-image: url("mainpic.jpg"); /* The image used */
+  background-color: #cccccc; /* Used if the image is unavailable */
+  height: 600px; /* You must set a specified height */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+}
+
+   .container {
+    margin: none;
+    max-width: 280px;
+    max-height:550px;
+    padding: 10px;
+    background-color:	black;   
+    border-radius: 8px;
+    opacity: 0.6;
+}
+
+/* Set a style for the submit button */
+
+.btn {
+    background-color: rgb(150, 20, 20) ;
+    color: white;
+    padding: 15px 30px;
+    cursor: pointer;
+    width:80%;
+    height:40px;
+    opacity: 0.7;
+    align:center;  
+    border:5px;  
+   border-radius : 10px;
+    
+}
+.btn:hover {
+    opacity: 1;
+} 
+
+
+.icon {
+    background:transperent;
+    color: ivory;
+    min-width: 35px;
+    min-height:10px;
+    opacity:1.0
+}
+
+.input-field {
+    width: 90%;
+    padding: 10px;
+    outline: none;
+}
+
+.input-field:focus {
+    border: 2px black;
+}
+
+
+
+.text-line
+{
+    background-color: transparent;
+    color:  #ffffff;
+    outline: 30px;
+    outline-style: none;
+    border-top: 10px;
+    border-left: 10px;
+    border-right: none;
+    border-bottom: solid #ffffff 1px;
+    padding: 15px 30px;
+}
+
+
+</style>
+</head>
+<body>
+<center>
+
+        <marquee ><font face="monospace ", " style="font-size:3vw" , color="black" > PLEASE REGISTER TO BE A MEMBER.    </font> </marquee>
+
+  <form name="form1" action ="coachreg" method="post">
+    <h2   style="color:  rgb(77, 20, 0)	; font-size:3vw ">Coach Registration</h2></center>
+  
+  
+  <center>
+    <div class="container">
+
+  
+  
+    
+   
+     <div class="input-container">
+    
+    <i class="fa fa-id-card-o icon"></i>
+    <input type="text"  class="text-line" placeholder="coach id" name="cid"> 
+    </div>
+   <div class="input-container">
+    <i class="fa fa-user-circle icon"></i>
+     <input type="text" class="text-line" placeholder="coach name" name="cname">
+  </div>
+  <div class="input-container">
+    <i class="fa fa-phone icon"></i>
+        <input  type="text" class="text-line" type="text" placeholder="phone number" name="cphno">
+      </div>
+        <div class="input-container">
+    <i class="fa fa-envelope-o  icon"></i>
+    <input  type="text" class="text-line" placeholder="coach email" name="cemail">
+  </div>  
+  <div class="input-container">
+    <i class="fa fa-cc-diners-club icon"></i>  
+        <input  type="text" class="text-line" placeholder="club name" name="clname">
+
+  </div>
+            <div class="input-container">
+    <i class="fa fa-key icon"></i>
+            <input  class="text-line" type="password" placeholder="Password" name="pwd">
+    
+          </div>
+    
+<br>
+  <button   style="color:white" ; type="submit" ; class= "btn">Register</button>
+  </div>
+    </div>
+  
+  </center>
+</form>
+            <div class="input-container">
+            <br>
+  <center>  <a  class="fa fa-long-arrow-left icon"  style="color:black ; font-size:2vw "  href="register.html">BACK</a></center>
+          </div>
+
+</body>
+</html>
